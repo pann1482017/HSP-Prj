@@ -1,0 +1,362 @@
+body{
+	margin: 0;
+	padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+
+.social-list a img{
+   margin: 0px;
+   padding: 0px;
+   text-align: left;
+
+   width:35px;
+   height: 35px;
+   border-radius: 30%;
+   margin: 0 -1px;
+
+}
+.social-list a img:hover{
+	transform: translate(0,-10px);
+}
+.social-list a img:nth-child a:hover{
+	background-color: #D4BFBF;
+}
+
+.icons-list{
+   width: 100%;
+   height: auto;
+   margin: auto;
+   margin-top: 50px;
+}
+
+.icons-list ul{
+   margin: 0px;
+   padding: 0px;
+   text-align: center;
+   display: inline-block;
+
+
+}
+.icons-list ul li{
+   display: inline-block;
+   width: 90px;
+   height: 90px;
+   text-align: center;
+   background: #E8E4E4;
+   border: 100%;
+   margin:0px 3px;
+}
+.icons-list ul li{
+   /*display: block;*/
+   color: #fff;
+   font-size: 25px;
+}
+.icons-list ul li i{
+   line-height: 70px;
+   display:block;
+}
+
+.icons-list ul li h9{
+   font-size: 10px;
+
+
+}
+
+
+
+#container .homepage .home:hover{
+   background-color:#18E5F2 !important;
+
+}
+#container .homepage .about:hover{
+   background-color:#F4F716 !important;
+
+}
+#container .homepage .service:hover{
+   background-color:#14EC2D !important;
+
+}
+#container .homepage .product:hover{
+   background-color:#EBF81C !important;
+
+}
+#container .homepage .customer:hover{
+   background-color:#18D41C !important;
+
+}
+#container .homepage .activity:hover{
+   background-color:#8B8484 !important;
+
+}
+#container .homepage .job:hover{
+   background-color:#F22B2B !important;
+
+}
+#container .homepage .contact:hover{
+   background-color:#2DAEE4 !important;
+
+}
+
+
+.carsal{
+   margin:0;
+   padding: 0;
+
+
+}
+
+
+
+
+
+.icons-list .home{
+   box-shadow: 1px 2px 5px #999;
+   transition: all .4s;
+}
+
+
+.icons-list .home:hover{
+   box-shadow: 2px 3px 15px #999;
+   transform: translateY(-1px);
+
+}
+
+.icons-list .about{
+   box-shadow: 1px 2px 5px #999;
+   transition: all .4s;
+}
+
+
+.icons-list .about:hover{
+   box-shadow: 2px 3px 15px #999;
+   transform: translateY(-1px);
+
+}
+
+.icons-list .service{
+   box-shadow: 1px 2px 5px #999;
+   transition: all .4s;
+}
+
+
+.icons-list .service:hover{
+   box-shadow: 2px 3px 15px #999;
+   transform: translateY(-1px);
+
+}
+
+.icons-list .product{
+   box-shadow: 1px 2px 5px #999;
+   transition: all .4s;
+}
+
+
+.icons-list .product:hover{
+   box-shadow: 2px 3px 15px #999;
+   transform: translateY(-1px);
+
+}
+
+.icons-list .customer{
+   box-shadow: 1px 2px 5px #999;
+   transition: all .4s;
+}
+
+
+.icons-list .customer:hover{
+   box-shadow: 2px 3px 15px #999;
+   transform: translateY(-1px);
+
+}
+
+.icons-list .activity{
+   box-shadow: 1px 2px 5px #999;
+   transition: all .4s;
+}
+
+
+.icons-list .activity:hover{
+   box-shadow: 2px 3px 15px #999;
+   transform: translateY(-1px);
+
+}
+
+.icons-list .job{
+   box-shadow: 1px 2px 5px #999;
+   transition: all .4s;
+}
+
+
+.icons-list .job:hover{
+   box-shadow: 2px 3px 15px #999;
+   transform: translateY(-1px);
+
+}
+
+.icons-list .contact{
+   box-shadow: 1px 2px 5px #999;
+   transition: all .4s;
+}
+
+
+.icons-list .contact:hover{
+   box-shadow: 2px 3px 15px #999;
+   transform: translateY(-1px);
+
+}
+
+
+.overlay{
+   display: block;
+   position: absolute;
+   top: 5%;
+   width: 70px;
+   margin-left: 0;
+   opacity: 0;
+}
+
+
+.about .overlay,
+.product .overlay{
+   cursor: pointer;
+
+   color: #000;
+   width: 50px;
+   height: 50px;
+   line-height: 35px;
+   font-size: 20px;
+   margin-bottom: 5%;
+   border:0px solid #B70F0F;
+
+
+}
+.about:hover .list-group,
+.product:hover .list-group{
+   opacity: 1;
+   margin-left: 10px;
+   transition: .9s;
+}
+
+.about .overlay:hover,
+.product .overlay:hover{
+   color:#B81E1E;
+
+}
+
+.about .list-group,
+.product .list-group{
+   background:#F9E116;
+   width: 200px;
+   line-height:10px;
+   font-size: 20px;
+
+
+}
+.about .list-group .list-group-item
+{
+   color: #732E2E;
+   background-color:#F4E431;
+}
+
+.product .list-group .list-group-item{
+   color: #732E2E;
+   background-color:#2BB2F1;
+}
+
+.see .btn{
+   text-align: center;
+}
+
+ /*pyay*/
+ #pyay .col-md-4,
+ #food .col-md-3,
+ #pagoda .col-md-2{
+   overflow: hidden;
+}
+#pyay img:hover,
+#food img:hover,
+#pagoda img:hover{
+   transform: scale(1.2);
+   transition: transform 1.5s ease;
+}
+
+/*service*/
+#service h2{
+   width: 250px;
+   height: 60px;
+   line-height: 60px;
+   text-align: center;
+}
+#service h2{
+   border-radius: 20px 20px 20px 20px;
+
+}
+
+
+/*phone*/
+.bg-red{
+   background: #ff0000;
+}
+.bg-blue{
+   background: #0000ff;
+}
+.text-orange{
+   color: #e35e00;
+}
+.text-red{
+   color: #ff0000;
+}
+
+
+#phone .col-md-3{
+   overflow: hidden;
+}
+#phone img:hover{
+   transform: scale(1.2);
+   transition: transform 1.5s ease;
+}
+#pyay h1{
+   width: 300px;
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+}
+#phone h1{
+   width: 300px;
+   height: 70px;
+   line-height: 70px;
+   text-align: center;
+}
+#food h3,
+#pagoda h3{
+   width: 250px;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+}
+#hotel h3{
+   width: 150px;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+}
+#pyay h1,
+#phone h1,
+#food h3,
+#pagoda h3,
+#hotel h3{
+   border-radius: 20px 20px 20px 20px;
+
+}
+
+#on-sales h5::after,
+#new-arrivals h5::after, 
+#similar-prd h5::after {
+   content: "";
+   border-top: 50px solid #e35300;
+   border-right: 50px solid transparent;
+   position: absolute;
+   margin-left: 36px;
